@@ -8,6 +8,10 @@
 #import <React/RCTLogBox.h>
 #import <React/RCTBundleURLProvider.h>
 
+// #ifdef RCT_NEW_ARCH_ENABLED
+#import <React/RCTFabricSurfaceHostingProxyRootView.h>
+// #endif
+
 #pragma clang diagnostic pop
 
 #import "EXDevLauncherRedBoxProtocol.h"
